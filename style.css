@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+body, html{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+	color: white;
+}
+h3{
+	font-size:30px;
+	font-weight: bold;
+	text-decoration: underline;
+	color:white;
+}
+h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+a.cta-alt/*read more poga*/{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	background-color:yellow;
+	display:inline-block;
+	border:solid #1564B3 4px;
+	border-radius: 8px;
+	padding: 5px 10px;
+	text-decoration: none;
+	margin-bottom:30px;
+	
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.banner{
+	background-color: #007FFF;
+	min-height:100vh;
+	box-sizing:border-box;
+	position:relative;
+	overflow: hidden;
+}
+
+.images img{
+	height: 200px;
+    width: auto;
+	transform: rotate(20deg);
+}
+.head1 img{
+	position:absolute; top:81px; right:611px;
+	border: solid black 3px;
+	border-radius: 150px;
+}
+.head2 img{
+	position:absolute; top:203px; right:494px;
+	border: solid black 3px;
+	border-radius: 80px;
+}
+.head3 img{
+	position:absolute; top:226px; right:644px;
+	border: solid black 3px;
+	border-radius: 150px;
+}
+
+.logo{
+	font-size:40px;
+	font-weight:bold;
+	color:black;
+	text-shadow: 0px 1px 2px black;
+	display: inline-block;
+	padding: 22px;
+	margin:0;
+}
+nav{
+	height:100px;
+	background-color:white;
+	box-shadow: 0 5px 8px black;
+	display:block;
+	position:sticky;
+	top:0;
+}
+nav ul{
+	padding:0;
+	margin:0;
+	float:right;
+	
+}
+
+nav ul li {
+    padding: 30px 20px;
+    margin: 0;
+    display: block;
+    float: right;
+	height:100px;
+	box-sizing:border-box;
+	font-weight:bold;
+	font-size:30px;
+	
+}
+nav ul li:hover{
+	background:black;
+	color:white;
+
+}
+a.list{
+	text-decoration:none;
+	color:black;
+}
+a.list:hover{
+	font-size:32px;
+	color:white;
+
+}
+.highlight{
+	background-color:pink; 
+	font-weight:bold;
+	}
+.highlight:hover{
+	background-color:red;
+	font-weight:bold;
+	}
+	
+.sep{
+	width:470px;
+	height:10px;
+	background-color:black;
+	margin:70px auto;
+}
+footer{
+	margin-top:30px;
+	padding:15px 15px;
+}
+footer ul{
+	text-align: center;
+	}
+footer ul li{
+	color: gray;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.popup{
+	display:none;
+	position: fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+.popups .show{
+	display:block;
+}
+
+.popup .blanket{
+	background-color:rgba(0,0,0,.7);
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+.popup .content{
+	box-sizing:border-box;
+	padding: 30px 40px;
+	width: 960px;
+	height: 540px;
+	background-color:white;
+	text-align:center;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-480px;
+	margin-top:-270px;
+}
+.popup .close {
+	width:80px;
+	height:80px;
+	color:white;
+	background-color:red;
+	font-size:60px;
+	font-weight:bold;
+	border-radius:100px;
+	border:solid;
+	position:absolute;
+	top:-40px;
+	right:-40px;
+	cursor:pointer;
+}
+.popup. .row{
+	
+}
+.popup .row:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.popup .item{
+	float:left;
+	width: 415px;
+	margin-left: 40px;
+	text-align: left;
+	
+}
+.popup .item:first-child{
+	margin-left:0;
+}
+.popup .item label{
+	display:block;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:10px:
+}
+.popup .item input{
+	display:block;
+	font-size:30px;
+	font-weight:bold;
+	border: solid black;
+	height:70px;
+	box-sizing:border-box;
+	width:100%;
+	padding: 15px 20px;
+	
+	
+}
+@media only screen and (max-width: 600px) {
+	.images img{
+		height: 50px;
+		width: auto;
+		transform: rotate(20deg);
+	}
+	.head1 img{
+		position:absolute; top:20px; right:20px;
+		border: solid black 3px;
+		border-radius: 25px;
+	}
+	.head2 img{
+		display:none;
+	}
+	.head3 img{
+		display:none;
+	}
+	h1 {
+		font-weight: 800;
+		font-size: 22px;
+		color: white;
+	}
+}
+
+/* 	 <nav>
+	 <a href="" class="logo">The Sad Gang</a>
+	 <ul>
+	 <li> <a href=""> </a>Sign Up</li>
+	 <li> <a href="#story"> </a>Story</li>
+	 <li> <a href="#more-info"> </a>More Info</li>
+	 </ul>
+	 </nav>
+  */
