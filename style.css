@@ -12,6 +12,9 @@ h1{
 	font-size: 50px;
 	color: white;
 }
+h2{
+	clear:up;
+}
 h3{
 	font-size:30px;
 	font-weight: bold;
@@ -58,19 +61,34 @@ a.cta-alt/*read more poga*/{
 	transform: rotate(20deg);
 }
 .head1 img{
-	position:absolute; top:81px; right:611px;
+	position:absolute; top:81px; right: 611px;
 	border: solid black 3px;
 	border-radius: 150px;
 }
 .head2 img{
-	position:absolute; top:203px; right:494px;
+	position:absolute; top:203px; right: 494px;
 	border: solid black 3px;
 	border-radius: 80px;
 }
 .head3 img{
-	position:absolute; top:226px; right:644px;
+	position:absolute; top:226px; right: 644px;
 	border: solid black 3px;
 	border-radius: 150px;
+}
+.copy/*bilde*/{
+	height:250px;
+	width:auto;
+	float:left;
+	margin-top:-10px;
+	margin-left:-18px;	
+}
+.endPic{
+	height: auto;
+	width: 500px;
+	float: none;
+	right: -699px;
+	position: relative;
+	margin-top:30px;
 }
 
 .logo{
@@ -130,10 +148,13 @@ a.list:hover{
 	background-color:red;
 	font-weight:bold;
 	}
-	
+
+.underline{
+	text-decoration:underline;
+}	
 .sep{
 	width:470px;
-	height:10px;
+	height:5px;
 	background-color:black;
 	margin:70px auto;
 }
@@ -257,13 +278,3 @@ footer ul li{
 		color: white;
 	}
 }
-
-/* 	 <nav>
-	 <a href="" class="logo">The Sad Gang</a>
-	 <ul>
-	 <li> <a href=""> </a>Sign Up</li>
-	 <li> <a href="#story"> </a>Story</li>
-	 <li> <a href="#more-info"> </a>More Info</li>
-	 </ul>
-	 </nav>
-  */
